@@ -24,7 +24,12 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":128.0,"y":0.0,},
+    {"x":128.0,"y":128.0,},
+    {"x":0.0,"y":128.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
@@ -34,6 +39,9 @@
     "name":"sPlayer",
     "path":"sprites/sPlayer/sPlayer.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sPlayer",
+    "path":"sprites/sPlayer/sPlayer.yy",
+  },
   "visible":true,
 }
